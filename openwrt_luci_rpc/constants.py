@@ -6,7 +6,7 @@ class Constants:
     DEFAULT_TIMEOUT = 30
     DEFAULT_HTTPS = False
     DEFAULT_VERIFY_HTTPS = True
-    DEFAULT_ONLY_REACH = True
+    DEFAULT_ONLY_REACH = False
     DEFAULT_WLAN_IF = ['wlan0-1']
 
     LUCI_RPC_LOGIN_PATH = '{}/cgi-bin/luci/rpc/auth'
